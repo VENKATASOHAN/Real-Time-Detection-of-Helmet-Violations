@@ -8,7 +8,7 @@ from transformers import VisionEncoderDecoderModel
 from transformers import TrOCRProcessor
 from paddleocr import PaddleOCR
 
-cap = cv2.VideoCapture("videos/22.mp4")  # For videos
+cap = cv2.VideoCapture("he2.mp4")  # For videos
 
 model = YOLO("best.pt") # after training update the location of best.pt
 
